@@ -1,0 +1,303 @@
+body{
+    position: relative;
+    background: url("../images/AdobeStock_161629247-blue-green-sea-water-with-foam.jpg") ;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+#wrap{
+    display: inline-block;
+    position: relative;
+    width: 1100px;
+    background: url("../images/IMG_me.1.jpg") no-repeat right top;
+    background-color: white;
+    margin: auto;
+    height: 700px;
+}
+
+#wrap_FINKI{
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 1100px;
+    background: url("../images/career.PNG") no-repeat bottom right;
+    background-color: #006E89;
+    margin: auto;
+    height: 700px;
+    border: 3px solid white;
+}
+
+#border{
+    position: absolute;
+    height: 700px;
+    border-right: 10px #004466 solid;
+    right: 343px;
+}
+
+#menu{
+    display: flex;
+    position: relative;
+    list-style: none;
+    background-color: #004466;
+    height: 50px;
+    padding-left: 850px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    font-style: italic;
+    font-family: Arial, serif;
+    background-image: linear-gradient(#004466, #002233);
+}
+
+#menu li{
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-top: 13px;
+    border-right: 2px white solid;
+    height: 20px;
+}
+
+#menu li a:link, a:active, a:hover, a:visited{
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+}
+
+#wrap>h1, #wrap_contact>h1{
+    text-decoration: #004466 underline;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    width: 65%;
+    font-style: italic;
+    justify-content: center;
+}
+
+#wrap p{
+    width: 65%;
+    font-size: 20px;
+    padding-left: 30px;
+    text-align: left;
+    font-style: italic;
+}
+
+#finki, #finki1{
+    color: #004466;
+    text-decoration: none;
+}
+
+#underline{
+    display: inline-block;
+    position: relative;
+    margin-right: 45%;
+}
+
+#video{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 400px;
+    height: 226px;
+    border: 0;
+    border-right: 3px white dashed;
+}
+
+#wrap_FINKI>h1{
+    position: absolute;
+    width: 65%;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    font-size: 50px;
+    font-family: arial, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: #004466;
+}
+
+#wrap_FINKI>.finki_text:first-of-type{
+    box-sizing: border-box;
+    width: 60%;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 40px;
+    background: url("../images/arrow.PNG") no-repeat top right;
+    height: 225px;
+    padding-right: 160px;
+    margin-top: 20px;
+    padding-top: 100px;
+    z-index: 1;
+}
+
+#wrap_FINKI>ol{
+    box-sizing: border-box;
+    position: absolute;
+    background: #004d66;
+    height: 400px;
+    width: 583px;
+    top: 225px;
+    z-index: 0;
+    font-size: 20px;
+    line-height: 90px;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    font-style: italic;
+    border-right: 3px white dashed;
+    font-family: Arial, sans-serif;
+}
+
+#wrap_FINKI>ol>li{
+    font-size: 17px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+
+
+#border_FINKI{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    height: 53px;
+    width: 635px;
+    background: #005663;
+}
+
+#gallery_wrap{
+    display: inline-block;
+    position: absolute;
+    background: #002233;
+    opacity: 0.9;
+    height: 700px;
+    width: 1400px;
+    left: 50px;
+    z-index: -1;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 260px;
+}
+
+div.gallery:hover {
+    box-sizing: border-box;
+    border: 2px solid #004466;
+    opacity: 0.9;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+#gallery_full{
+    padding-left: 73px;
+}
+
+#spacer{
+    clear: both;
+    height: 10px;
+    color: white;
+    padding-bottom: 30px;
+    background: url("../images/arrow (2).png") no-repeat bottom left;
+    padding-right: 900px;
+    margin-top: 230px;
+    font-family: Arial, sans-serif;
+    margin-left: 40px;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+#gallery_text>p{
+    color: #cccccc;
+    font-size: 25px;
+    width: 1400px;
+    margin-left: 50px;
+    background: #004466;
+    font-family: Arial, sans-serif;
+    border-bottom: 5px #002233 solid;
+    margin-top: 50px;
+}
+
+#wrap_contact{
+    display: inline-block;
+    position: relative;
+    width: 1100px;
+    background: url("../images/IMG_me.1.jpg") no-repeat right top;
+    background-color: white;
+    margin: auto;
+    height: 700px;
+    text-align: left;
+}
+
+#wrap_contact>.tag{
+    position: relative;
+    box-sizing: border-box;
+    background-image: linear-gradient(#004466, #002233);
+    height: 40px;
+    width: 750px;
+    color: #cccccc;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+#wrap_contact>h1{
+    text-align: center;
+}
+
+#wrap_contact>p, #wrap_contact>a{
+    position: relative;
+    padding-left: 80px;
+    z-index: 1;
+    font-family: Arial, sans-serif;
+}
+
+#wrap_contact>a:link, #wrap_contact>a:active, #wrap_contact>a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+#wrap_contact>a:hover{
+    color: #004466;
+    text-decoration: underline;
+}
+
+#underline_contact{
+    display: inline-block;
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+    z-index: 0;
+}
+
+#mail, #phone, #address{
+    position: absolute;
+    left: 20px;
+    z-index: 2;
+}
+
+#mail{
+    top: 245px;
+}
+
+#phone{
+    top: 340px;
+}
+
+#address{
+    top: 435px;
+}
