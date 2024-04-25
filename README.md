@@ -1,2 +1,2 @@
 # Personal website
-Project developed for the subject "Basics of Web Design".
+Project developed for the course "Basics of Web Design".
